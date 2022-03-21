@@ -35,7 +35,7 @@ public class Message implements Serializable {
     
     
     
-    	@NotBlank(message="Please Provide not blank name")
+    @NotBlank(message="Please Provide not blank name")
     @NotNull(message="Please provide your name")
     @Size(min=5, max=15, message="Your name '${validatedValue}' must be between {min} and {max} chars long")
     
